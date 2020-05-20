@@ -1,0 +1,13 @@
+query Todos {
+  todos {
+    id
+    body
+  }
+}
+
+mutation CreateTodo ($input: TodoInput!) {
+  createTodo(input: $input) {
+    id
+    body
+  }
+}
