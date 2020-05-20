@@ -52,7 +52,7 @@ In the apps we built this for there are a few considerations to take note of:
 
 While using this module didn't improve performance by much, here is some lighthouse@6 numbers side by side:
 
-[Before](./perf/before.png) and [after](./perf/after.png)
+[Before](./perf/before.jpg) and [after](./perf/after.jpg)
 
 ## License
 
