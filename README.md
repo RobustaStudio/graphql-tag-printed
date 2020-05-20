@@ -16,6 +16,8 @@ This loader solves this by moving the printing logic to build-time instead of ru
 
 This is useful if you are using non-JS based GraphQL server and would like to get the same benefits that you would have with `graphql-tag`, like using `.gql` files and GQL fragments.
 
+As an added bonus this module allows you to eliminate `graphql-tag` and `graphql` from your app dependencies.
+
 ## Getting Started
 
 Install using `yarn` or `npm`
