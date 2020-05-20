@@ -1,0 +1,10 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "jest/globals": true
+  },
+  "extends": ["plugin:jest/recommended", "plugin:prettier/recommended"],
+  "plugins": ["jest", "prettier"]
+}

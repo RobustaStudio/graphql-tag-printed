@@ -30,11 +30,11 @@ function GraphQLTagPrintedLoader(src) {
   }
 
   return newSource + os.EOL;
-};
+}
 
 // Makes it work with Jest as well
-GraphQLTagPrintedLoader.process = (src) => {
-  return GraphQLTagPrintedLoader.call({ cacheable() { } }, src);
+GraphQLTagPrintedLoader.process = src => {
+  return GraphQLTagPrintedLoader.call({ cacheable() {} }, src);
 };
 
 module.exports = GraphQLTagPrintedLoader;
